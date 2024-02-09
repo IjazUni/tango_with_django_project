@@ -72,6 +72,8 @@ TEMPLATES = [
     },
 ]
 
+SESSION_EXPIRE_AT_BROWSER_CLOSE=True
+
 WSGI_APPLICATION = 'tango_with_django_project.wsgi.application'
 
 
